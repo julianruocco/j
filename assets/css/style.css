@@ -299,7 +299,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: var(--custom-dark-blue);
+  background: var(--custom-white);
 }
 
 #header.header-top .social-links,
@@ -506,7 +506,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: var(--custom-dark-blue);
+  background: var(--custom-white);
   transition: ease-in-out 0.3s;
 }
 
