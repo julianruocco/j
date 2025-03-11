@@ -803,6 +803,18 @@ section .container {
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
 }
+.portfolio .portfolio-wrap::before {
+  content: '';
+  background: var(--custom-dark-blue); /* or #09203a */
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 30px;
+  bottom: 30px;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
 
 .portfolio .portfolio-wrap::before {
   content: '';
