@@ -29,7 +29,7 @@ body {
 body::before {
   content: '';
   position: fixed;
-  background: var(--custom-white);
+  background: var(--custom-dark-blue);
   background-size: cover;
   left: 0;
   right: 0;
@@ -299,7 +299,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: var(--custom-white);
+  background: var(--custom-dark-blue);
 }
 
 #header.header-top .social-links,
