@@ -291,6 +291,13 @@ h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: var(--white);
 }
+.mobile-nav a,
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
+  color: #fff !important;
+}
+
 
 /* Header Top */
 #header.header-top {
